@@ -1,6 +1,7 @@
 A Y
 B X
-C Z
+B X
+C Y
 B X
 A Z
 B X
