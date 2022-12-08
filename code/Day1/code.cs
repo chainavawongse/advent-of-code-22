@@ -5,15 +5,9 @@ using System.Linq;
 
 namespace code.Day1
 {
-    public class code
+    public class Code
     {
-        public code()
-        {
-            
-            
-        }
-
-        public List<Elf> GetTopThree()
+        public static IEnumerable<Elf> GetTopThree()
         {
             return DoIt().OrderByDescending(e => e.TotalCalories).Take(3).ToList();
         }
